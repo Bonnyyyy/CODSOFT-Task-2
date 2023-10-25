@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/330px-Swami_Vivekananda-1893-09-signed.jpg" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(rgb(255, 98, 0), rgb(226, 218, 218));
+            font-size: 24px;
+            font-weight: 300;
+            background-attachment: fixed;
+        }
+        
+        header {
+            color: brown;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            border: 2px solid black;
+        }
+        
+        .head {
+            color: black;
+            margin: auto;
+            width: 90vw;
+        }
+        
+        .img {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: brown;
+        }
+        
+        img {
+            border-radius: 10px;
+            border: 5px double black;
+            height: 300px;
+            width: 450px;
+        }
+        
+        h3 {
+            text-decoration: underline;
+        }
+        
+        .para {
+            margin: auto;
+            margin-top: 30px;
+            width: 80vw;
+            border: 8px double blue;
+            border-radius: 20px;
+            padding: 10px;
+            backdrop-filter: blur(3px);
+            box-shadow: 15px 15px 35px;
+            font-family: 'Kalam', cursive;
+        }
+        
+        #ach {
+            display: none;
+            flex-direction: column;
+        }
+        
+        h4 {
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3 onclick="exp()">About and contributions </h3>
+        <div class="head" id="ach">
+            <h4>
+                Swami Vivekananda, known in his pre-monastic life as Narendra Nath Datta, was born in an affluent family in Kolkata on 12 January 1863. His father, Vishwanath Datta, was a successful attorney with interests in a wide range of subjects, and his mother,
+                Bhuvaneshwari Devi, was endowed with deep devotion, strong character and other qualities. A precocious boy, Narendra excelled in music, gymnastics and studies. By the time he graduated from Calcutta University, he had acquired a vast knowledge
+                of different subjects, especially Western philosophy and history. Born with a yogic temperament, he used to practise meditation even from his boyhood, and was associated with Brahmo Movement for some time.
+            </h4>
+            <h3>
+                Here are some of his most notable contributions to the World Culture:
+            </h3>
+            <ul>
+                <li>
+                    <b>
+                        New Understanding of Religion : One of the most significant contributions of Swami Vivekananda to the modern world is his interpretation of religion as a universal experience of transcendent Reality, common to all humanity. Swamiji met the challenge of modern science by showing that religion is as scientific as science itself; religion is the ‘science of consciousness’. As such, religion and science are not contradictory to each other but are complementary.
+                        This universal conception frees religion from the hold of superstitions, dogmatism, priestcraft and intolerance, and makes religion the highest and noblest pursuit – the pursuit of supreme Freedom, supreme Knowledge, supreme Happiness.
+                </li>
+                <li>
+                    <b>
+                        New View of Man : Vivekananda’s concept of ‘potential divinity of the soul’ gives a new, ennobling concept of man. The present age is the age of humanism which holds that man should be the chief concern and centre of all activities and thinking. Through science and technology man has attained great prosperity and power, and modern methods of communication and travel have converted human society into a ‘global village’. But the degradation of man has also been going on apace, as witnessed by the enormous increase in broken homes, immorality, violence, crime, etc. in modern society. Vivekananda’s concept of potential divinity of the soul prevents this degradation, divinizes human relationships, and makes life meaningful and worth living. Swamiji has laid the foundation for ‘spiritual humanism’, which is manifesting itself through several neo-humanistic movements and the current interest in meditation, Zen etc all over the world.
+                </li>
+                <li>
+                    <b>
+                        New Principle of Morality and Ethics : The prevalent morality, in both individual life and social life, is mostly based on fear – fear of the police, fear of public ridicule, fear of God’s punishment, fear of Karma, and so on. The current theories of ethics also do not explain why a person should be moral and be good to others. Vivekananda has given a new theory of ethics and new principle of morality based on the intrinsic purity and oneness of the Atman. We should be pure because purity is our real nature, our true divine Self or Atman. Similarly, we should love and serve our neighbours because we are all one in the Supreme Spirit known as Paramatman or Brahman.
+                </li>
+                <li>
+                    <b>
+                        Bridge between the East and the West : Another great contribution of Swami Vivekananda was to build a bridge between Indian culture and Western culture. He did it by interpreting Hindu scriptures and philosophy and the Hindu way of life and institutions to the Western people in an idiom which they could understand. He made the Western people realize that they had to learn much from Indian spirituality for their own well-being. He showed that, in spite of her poverty and backwardness, India had a great contribution to make to world culture. In this way he was instrumental in ending India’s cultural isolation from the rest of the world. He was India’s first great cultural ambassador to the West.
+                        On the other hand, Swamiji’s interpretation of ancient Hindu scriptures, philosophy, institutions, etc prepared the mind of Indians to accept and apply in practical life two best elements of Western culture, namely science and technology and humanism. Swamiji has taught Indians how to master Western science and technology and at the same time develop spiritually. Swamiji has also taught Indians how to adapt Western humanism (especially the ideas of individual freedom, social equality and justice and respect for women) to Indian ethos.
+                </li>
+            </ul>
+            <span onclick="hide()">Show Less.</span>
+        </div>
+    </header>
+    <div class="img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/330px-Swami_Vivekananda-1893-09-signed.jpg" alt="">
+        <h3>Swami Vivekananda</h3>
+        <h4>(1863–1888)</h4>
+    </div>
+    <div class="para">
+        <p>Born into an aristocratic Bengali Kayastha family in Calcutta, Vivekananda was inclined from a young age towards religion and spirituality. He later found his guru Ramakrishna and became a monk. After the death of Ramakrishna, Vivekananda extensively toured the Indian subcontinent acquiring first-hand knowledge of the living conditions of Indian people in then British India. Moved by their plight, he resolved to help his countrymen and found a way to travel to the United States, where he became a popular figure after the 1893 Parliament of Religions in Chicago at which he delivered his famous speech beginning with the words: Sisters and brothers of America... while introducing Hinduism to Americans. He was so impactful at the Parliament that an American newspaper described him as "an orator by divine right and undoubtedly the greatest figure at the Parliament".
+            After great success at the Parliament, in the subsequent years, Vivekananda delivered hundreds of lectures across the United States, England and Europe, disseminating the core tenets of Hindu philosophy, and founded the Vedanta Society of New York and the Vedanta Society of San Francisco (now Vedanta Society of Northern California), both of which became the foundations for Vedanta Societies in the West. In India, Vivekananda founded the Ramakrishna Math, which provides spiritual training for monastics and householder devotees, and the Ramakrishna Mission, which provides charity, social work and education.
+            Vivekananda was one of the most influential philosophers and social reformers in his contemporary India, and the most successful missionaries of Vedanta to the Western world. He was also a major force in contemporary Hindu reform movements and contributed to the concept of nationalism in colonial India. He is now widely regarded as one of the most influential people of modern India and a patriotic saint. His birthday in India is celebrated as National Youth Day.
+        </p>
+        <p>
+            Initial spiritual forays : In 1880, Narendra joined Keshab Chandra Sen's Nava Vidhan, which was established by Sen after meeting Ramakrishna and reconverting from Christianity to Hinduism. Narendra became a member of a Freemasonry lodge "at some point before 1884" and of the Sadharan Brahmo Samaj in his twenties, a breakaway faction of the Brahmo Samaj led by Keshab Chandra Sen and Debendranath Tagore. From 1881 to 1884, he was also active in Sen's Band of Hope, which tried to discourage youths from smoking and drinking.
+
+            It was in this cultic milieu that Narendra became acquainted with Western esotericism. His initial beliefs were shaped by Brahmo concepts, which denounced polytheism and caste restrictions, and a "streamlined, rationalized, monotheistic theology strongly coloured by a selective and modernistic reading of the Upanisads and of the Vedanta." Rammohan Roy, the founder of the Brahmo Samaj who was strongly influenced by unitarianism, strove towards a universalistic interpretation of Hinduism. His ideas were "altered [...] considerably" by Debendranath Tagore, who had a romantic approach to the development of these new doctrines, and questioned central Hindu beliefs like reincarnation and karma, and rejected the authority of the Vedas. Tagore also brought this "neo-Hinduism" closer in line with western esotericism, a development which was furthered by Sen. Sen was influenced by transcendentalism, an American philosophical-religious movement strongly connected with unitarianism, which emphasised personal religious experience over mere reasoning and theology. Sen strived to "an accessible, non-renunciatory, everyman type of spirituality", introducing "lay systems of spiritual practice" which can be regarded as an influence to the teachings Vivekananda later popularised in the west.
+            
+            Not satisfied with his knowledge of philosophy, Narendra came to "the question which marked the real beginning of his intellectual quest for God." He asked several prominent Calcutta residents if they had come "face to face with God", but none of their answers satisfied him. At this time, Narendra met Debendranath Tagore (the leader of Brahmo Samaj) and asked if he had seen God. Instead of answering his question, Tagore said, "My boy, you have the Yogi's eyes." According to Banhatti, it was Ramakrishna who really answered Narendra's question, by saying "Yes, I see Him as I see you, only in an infinitely intenser sense." According to De Michelis, Vivekananda was more influenced by the Brahmo Samaj's and its new ideas, than by Ramakrishna. Swami Medhananda agrees that the Brahmo Samaj was a formative influence, but that "it was Narendra's momentous encounter with Ramakrishna that changed the course of his life by turning him away from Brahmoism." According to De Michelis, it was Sen's influence which brought Vivekananda fully into contact with western esotericism, and it was also via Sen that he met Ramakrishna.
+        </p>
+        <p>
+            Founding of Ramakrishna Math : After Ramakrishna's death, his devotees and admirers stopped supporting his disciples. Unpaid rent accumulated, and Narendra and the other disciples had to find a new place to live. Many returned home, adopting a Grihastha (family-oriented) way of life. Narendra decided to convert a dilapidated house at Baranagar into a new math (monastery) for the remaining disciples. Rent for the Baranagar Math was low, raised by "holy begging" (mādhukarī). The math became the first building of the Ramakrishna Math: the monastery of the monastic order of Ramakrishna. Narendra and other disciples used to spend many hours in practising meditation and religious austerities every day. Narendra later reminisced about the early days of the monastery:
+
+            We underwent a lot of religious practice at the Baranagar Math. We used to get up at 3:00 am and become absorbed in japa and meditation. What a strong spirit of detachment we had in those days! We had no thought even as to whether the world existed or not.
+            
+            In 1887, Narendra compiled a Bengali song anthology named Sangeet Kalpataru with Vaishnav Charan Basak. Narendra collected and arranged most of the songs of this compilation, but could not finish the work of the book for unfavourable circumstances.
+        </p>
+        <p>
+            Monastic vows : In December 1886, the mother of Baburam[note 2] invited Narendra and his other brother monks to Antpur village. Narendra and the other aspiring monks accepted the invitation and went to Antpur to spend a few days. In Antpur, on the Christmas Eve of 1886, Narendra and eight other disciples took formal monastic vows. They decided to live their lives as their master lived. Narendranath took the name "Swami Vivekananda".
+        </p>
+    </div>
+</body>
+<script>
+    function exp() {
+        document.getElementById("ach").style.display = "flex";
+    }
+
+    function hide() {
+        document.getElementById("ach").style.display = "none";
+    }
+</script>
+
+</html>
